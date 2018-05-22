@@ -1,0 +1,28 @@
+{
+  "name": "minecraft-dynmap",
+  "version": "0.1.0",
+  "description": "A Node.js interface to the Minecraft Dynamic Map API",
+  "main": "index.js",
+  "dependencies": {
+    "request": "^2.87.0",
+    "request-promise": "^4.2.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hellomouse/node-minecraft-dynmap.git"
+  },
+  "keywords": [
+    "minecraft",
+    "dynmap"
+  ],
+  "author": "iczero",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hellomouse/node-minecraft-dynmap/issues"
+  },
+  "homepage": "https://github.com/hellomouse/node-minecraft-dynmap#readme"
+}

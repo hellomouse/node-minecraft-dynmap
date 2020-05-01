@@ -5,14 +5,17 @@
   "main": "index.js",
   "dependencies": {
     "request": "^2.87.0",
-    "request-promise": "^4.2.2"
+    "request-promise": "^4.2.2",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "eslint": "^4.19.1",
     "eslint-config-google": "^0.9.1"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -27,5 +30,6 @@
   "bugs": {
     "url": "https://github.com/hellomouse/node-minecraft-dynmap/issues"
   },
-  "homepage": "https://github.com/hellomouse/node-minecraft-dynmap#readme"
+  "homepage": "https://github.com/hellomouse/node-minecraft-dynmap#readme",
+  "snyk": true
 }
